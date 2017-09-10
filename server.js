@@ -70,6 +70,6 @@ app.get('/bad', (req, res) => {
   });
 })
 
-app.listen(3000, () => {  //List can can take second optional argument
+app.listen(port, () => {  //List can can take second optional argument
   console.log(`Server is up on port ${port}`);
 });
